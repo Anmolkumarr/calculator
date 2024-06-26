@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Codsoft intenship */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0cb317;
+}
+.calculator{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    border-radius: 20px;
+}
+.calculator input{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 6px;
+    box-shadow: 0 5px 8px black;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+}
+.calculator .equal{
+    width: 135px;
+}
+.calculator .operator{
+    background-color: rgb(173, 44, 98);
+}
+.calculator .del{
+    background-color: aqua;
+}
+.calculator #result{
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+.calculator .result{
+    width: 290px
+}
